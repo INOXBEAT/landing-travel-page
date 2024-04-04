@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
 .roboto-condensed-<uniquifier> {
-
 */
 
 * {
@@ -67,6 +63,7 @@ body {
 
 .menu .navbar ul li a:hover {
     color: #266371;
+
 }
 
 .icons {
@@ -96,6 +93,7 @@ body {
     cursor: pointer;
     display: none;
 }
+
 
 .header-txt {
     width: 40%;
@@ -127,6 +125,7 @@ body {
     background-color: #099fa6;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     font-family: "Roboto Condensed", sans-serif;
+
 }
 
 .btn-1:hover {
@@ -203,9 +202,12 @@ body {
     color: #ffffff;
 }
 
+
 @media(max-width:991px) {
+
     .menu {
         padding: 30px;
+
     }
 
     .menu-label {
@@ -260,4 +262,6 @@ body {
     .rows {
         display: none;
     }
+
+    
 }
